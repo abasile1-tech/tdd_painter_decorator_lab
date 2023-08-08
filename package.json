@@ -1,0 +1,19 @@
+{
+  "name": "tdd_painter_decorator_lab",
+  "version": "1.0.0",
+  "description": "**Suggested Lab Duration: 90 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha models/specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abasile1-tech/tdd_painter_decorator_lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abasile1-tech/tdd_painter_decorator_lab/issues"
+  },
+  "homepage": "https://github.com/abasile1-tech/tdd_painter_decorator_lab#readme"
+}
