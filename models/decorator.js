@@ -20,8 +20,9 @@ Decorator.prototype.addCan = function (can) {
 Decorator.prototype.calcTotalLitres = function () {
 	let total_litres = 0;
 	for (let can of this.paint_stock) {
-		total_litres += can.numLitres();
+		total_litres += can.num_litres;
 	}
+	return total_litres;
 }
 
 Decorator.prototype.hasEnoughPaint = function (room) {
